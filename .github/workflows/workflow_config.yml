@@ -1,0 +1,17 @@
+name: pikpak_auto
+on:
+  workflow_dispatch:
+  schedule:
+    # IMPORTANT: Set cron job in UTC timezone
+    - cron:  '0 18 * * *'
+
+jobs:
+  run-python-script:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.8.0'
+      - run: pip install -r requirements.txt
+      - run: python myPikpakQQEmail.py
