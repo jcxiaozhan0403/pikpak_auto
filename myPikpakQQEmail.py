@@ -1425,11 +1425,19 @@ def start():
     part_invite(action9['sub'], phoneModel, phoneBuilder, invite_code, action10['captcha_token'], device_id,
                 action9['access_token'], User_Agent)
 
-    print("===========邀请成功=============")
-    print("邮箱：", email)
-    print("密码：", password)
-    print("用户名：", name)
-    input("===========结束运行=============")
+    # print("===========邀请成功=============")
+    # print("邮箱：", email)
+    # print("密码：", password)
+    # print("用户名：", name)
+    # input("===========结束运行=============")
+
+    # 账号写入文件
+    with open("README.md", "w", encoding='utf-8') as file:
+        file.write("\n### 今日账号\n")
+        file.write("\n邮箱： " + email + "\n")
+        file.write("密码： " + password + "\n")
+        file.write("用户名： " + name + "\n")
+    exit(0)
 
 
 if __name__ == '__main__':
