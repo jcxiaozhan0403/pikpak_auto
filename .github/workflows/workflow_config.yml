@@ -1,5 +1,7 @@
 name: pikpak_auto
 on:
+  push:
+    branches: [ master ]
   workflow_dispatch:
   schedule:
     # IMPORTANT: Set cron job in UTC timezone
