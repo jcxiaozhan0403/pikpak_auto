@@ -6,7 +6,8 @@ email:
 # 邀请码
 invitationCode:
   mode: 2
-  value: "53357480"
+  # value: "53357480"
+  value: "66146671"
 
 # 验证码
 verificationCode:
