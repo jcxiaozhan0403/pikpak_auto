@@ -1429,7 +1429,7 @@ def start():
     print("邮箱：", email)
     print("密码：", password)
     print("用户名：", name)
-    input("===========结束运行=============")
+    print("===========结束运行=============")
     exit(0)
 
 
