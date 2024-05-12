@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   schedule:
     # 每天9点半执行
-    - cron:  '0 0 * * 2,5'
+    - cron:  '0 0 * * *'
 
 jobs:
   run-python-script:
