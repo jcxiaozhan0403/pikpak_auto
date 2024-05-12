@@ -1,4 +1,4 @@
-name: pikpak_auto
+name: weixinStep
 on:
   workflow_dispatch:
   schedule:
