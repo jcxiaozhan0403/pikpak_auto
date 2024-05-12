@@ -146,7 +146,7 @@ def main(PhoneNum, PassWord, StepNum):
     nowTime = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
     result = f"[{nowTime}]\n{PhoneNum[:4]}****{PhoneNum[-4:]}: 修改步数（{StepNum}）" + response['message']
     print(result)
-    exit(1)
+    exit(0)
     return result
 
 
@@ -200,4 +200,4 @@ def main_handler(event, context):
 
 
 if __name__ ==  "__main__":
-    main_handler('event', 'context')  # 这行用于本地调试 使用云函数可以注释掉
+    main_handler('event', 'context')
