@@ -186,7 +186,7 @@ def main_handler(event, context):
         {
             "PhoneNum": "18982379506",  # 手机号
             "PassWord": "lishuang001219",  # 密码
-            "StepNum": "30000-50000",  # 步数 固定步数 随机步数之间用[-]连接
+            "StepNum": "10000-35000",  # 步数 固定步数 随机步数之间用[-]连接
         }
 
 
