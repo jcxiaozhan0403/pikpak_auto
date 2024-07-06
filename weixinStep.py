@@ -185,13 +185,8 @@ def main_handler(event, context):
     user = [
         {
             "PhoneNum": "18982379506",  # 手机号
-            "PassWord": "lishuang001219",  # 密码
-            "StepNum": "6666",  # 步数 固定步数 随机步数之间用[-]连接
-        },
-        {
-            "PhoneNum": "15884534500",  # 手机号
-            "PassWord": "hzy200191",  # 密码
-            "StepNum": "66666",  # 步数 固定步数 随机步数之间用[-]连接
+            "PassWord": "ls001219",  # 密码
+            "StepNum": "5000-8000",  # 步数 固定步数 随机步数之间用[-]连接
         }
     ]
 
