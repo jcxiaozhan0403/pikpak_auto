@@ -8,8 +8,8 @@ import random
 
 # 获取步数
 def get_step_num(StepNum):
-    minStep = 23456
-    maxStep = 65432
+    minStep = 5000
+    maxStep = 8000
     StepNum = re.findall(r'\d+|\-', StepNum)
     StepNum = "".join(StepNum)
     StepArr = StepNum.split('-')
