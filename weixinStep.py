@@ -8,8 +8,8 @@ import random
 
 # 获取步数
 def get_step_num(StepNum):
-    minStep = 5000
-    maxStep = 8000
+    minStep = 1294
+    maxStep = 1294
     StepNum = re.findall(r'\d+|\-', StepNum)
     StepNum = "".join(StepNum)
     StepArr = StepNum.split('-')
@@ -186,7 +186,7 @@ def main_handler(event, context):
         {
             "PhoneNum": "18982379506",  # 手机号
             "PassWord": "ls001219",  # 密码
-            "StepNum": "5000-8000",  # 步数 固定步数 随机步数之间用[-]连接
+            "StepNum": "1294",  # 步数 固定步数 随机步数之间用[-]连接
         }
     ]
 
